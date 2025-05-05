@@ -1,0 +1,31 @@
+# Basic variable and print example
+name = "Ada Lovelace"
+age = 30
+print("Name:", name)
+print("Age in 5 years:", age + 5)
+
+# If-Else example
+score = 87
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+else:
+    print("Grade: C or below")
+
+# Function example
+def greet_user(username):
+    print("Hello,", username + "!")
+
+greet_user("Ada")
+
+# For loop example
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print("I like", fruit)
+
+# While loop with a counter
+count = 1
+while count <= 3:
+    print("This is loop number", count)
+    count += 1
